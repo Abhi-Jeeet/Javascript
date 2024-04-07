@@ -1,7 +1,7 @@
 //console.log("Abhijeet Kumar");
 const accountId="4562"; //const represent here a constant 
 let emialId='abhijeet@abhi.com'
-var password="22103" // not use var-> because of issue in block scope and functional scope
+var password="22103" // not use var-> because of issue in block scope and functional scope.
 accountCity="chatra"
 let accountMember;
 
