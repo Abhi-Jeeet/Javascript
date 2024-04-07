@@ -31,9 +31,28 @@ true=>1; false->0
 let isLoggedIn="abhijeet"
 
 let booleanloogedin=Boolean(isLoggedIn);
-console.log(typeof(isLoggedIn));
-console.log(booleanloogedin);
+// console.log(typeof(isLoggedIn));
+// console.log(booleanloogedin);
 
 //1->true, 0->false
 //""->false
 //"abhijeet"->true
+
+/********************Operations ************/
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2/2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2%2);
+
+let str1="abhijeet ";
+let str2="Kumar";
+let str3=str1+str2;
+console.log(str3);
+
+console.log("1"+1+1);//if there is string in the first, it will be conactenated
+//output--> 111
+console.log(1+1+"1");//if there is string in the last then the first one will be added and then concatenated with the last one
+//output--> 21
